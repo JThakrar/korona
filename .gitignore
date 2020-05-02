@@ -1,0 +1,8 @@
+# Ignore Gradle and build
+.gradle
+gradle
+build
+
+# IDEs
+.idea
+eclipse.ini
