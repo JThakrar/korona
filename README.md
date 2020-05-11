@@ -16,10 +16,10 @@ However, InfluxDB was chosen based on:
 - integrated query, data export/import and aggregation
 - simple line-protocol mechanism to push metrics
 
-# How-To Use Steps
+# How-To Use
 ## Requirements
-The project was developed and compiled against the latest Kafka version as of 
-April 2020 (Kafka 2.5.0) and thus requires the following as enumerated in the 
+The project was developed and compiled against Kafka versions 2.4.1 (March 12, 2020)
+and 2.5.0 (April 15) and thus requires the following as enumerated in the
 gradle build file:
 
 - Kafka 2.2+
@@ -33,7 +33,7 @@ git clone
 cd korona
 git build
 ```
-The above steps should create a jar `korona-0.1.0.jar` under the build directory.
+The above steps will create a jar `korona-0.1.0.jar` under the build directory.
 
 Copy this jar in the lib directory for the Kafka broker, producer or client.
 
@@ -67,4 +67,3 @@ Korona has been tested with Influx 1.8
 
 ## Ready-Set-Go
 That's it folks! You are ready to emit your metrics to InfluxDB by restarting the broker, producer or consumer.
-
